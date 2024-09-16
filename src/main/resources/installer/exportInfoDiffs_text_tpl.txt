@@ -1,0 +1,7 @@
+{{{docMaskDiffs}}}
+
+{{#each docMasks}}
+  {{{keyText}}}
+{{#each lines}}    * {{{keyText}}}
+{{/each}}      
+{{/each}}

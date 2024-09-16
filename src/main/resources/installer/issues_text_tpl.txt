@@ -1,0 +1,9 @@
+{{{title}}}
+
+{{#each items}}
+  {{{title.text}}}
+{{#if details.text}}  {{{details.text}}}
+{{/if ~}}
+{{#if list}}{{#each list}}    * {{{this}}}
+{{/each}}{{/if ~}}      
+{{/each}}
